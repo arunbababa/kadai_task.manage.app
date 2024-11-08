@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
@@ -29,7 +30,7 @@ return array(
         'connection'  => array(
             'hostname'   => 'localhost',
             'port'       => '3306', 
-            'database'   => 'userregister',
+            'database'   => '', //taskappDBを参照
             'username'   => 'root',  // デフォルトのMySQLユーザー
             'password'   => 'root',  // デフォルトのMySQLパスワード（MAMPの場合）
             'persistent' => false,
